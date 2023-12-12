@@ -94,18 +94,18 @@
 .ownerNameDate:nth-child(2) {
   font-size: 10px;
 }
-@media (min-width: 1870px) {
-  #mainContainer {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 @media (min-width: 935px) {
   #mainContainer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 1380px) {
+@media (min-width: 1366px) {
   #mainContainer {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1920px) {
+  #mainContainer {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
